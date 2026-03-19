@@ -1,8 +1,9 @@
 boto3
 opencv-python
-pillow
+#pillow
 numpy
-pytesseract
+#pytesseract
 easyocr
 jsonschema
 sagemaker
+python-dotenv
