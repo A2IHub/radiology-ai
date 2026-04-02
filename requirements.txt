@@ -1,9 +1,33 @@
+# -----------------------------
+# Core
+# -----------------------------
+numpy==1.26.4
+#pandas==1.5.3
+
+# -----------------------------
+# Image processing
+# -----------------------------
+opencv-python-headless==4.8.1.78
+Pillow==10.2.0
+
+# -----------------------------
+# AWS (let SageMaker control versions)
+# -----------------------------
 boto3
-opencv-python
-#pillow
-numpy
-#pytesseract
-easyocr
-jsonschema
-sagemaker
-python-dotenv
+
+# -----------------------------
+# OCR
+# -----------------------------
+pytesseract==0.3.10
+
+# -----------------------------
+# Visualization
+# -----------------------------
+matplotlib==3.7.2
+
+# -----------------------------
+# SageMaker
+# -----------------------------
+
+sagemaker==2.212.0
+

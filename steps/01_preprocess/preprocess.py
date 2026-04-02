@@ -75,7 +75,7 @@ def process_file(bucket, key, output_bucket, output_prefix):
             img = Image.open(io.BytesIO(file_bytes))
             img = preprocess_image(img)
 
-            out_key = f"{output_prefix}/{os.path.basename(key)}.png"
+            out_key = f"{output_prefix}/{os.path.basename(key)}"
             s3_helper.upload_image(img, output_bucket, out_key)
 
             processed_keys.append(out_key)
